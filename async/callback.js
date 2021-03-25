@@ -10,7 +10,7 @@ function printWithDelay(print, timeout) {
 
 // JavaScript is synchronous.
 // Execute the code block by order after hoisting.
-// hoisting: var, function declaration 
+// hoisting: var, function declaration.
 console.log('1') // sync
 setTimeout(() => 
 console.log('2'), 1000); // async
