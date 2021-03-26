@@ -18,4 +18,4 @@ console.log('3') // sync
 
 printImmediately(() => console.log('hello')) // sync
 
-printWithDelay(() => console.log('async callback'), 3000) // async
+printWithDelay(() => console.log('async callback'), 2000) // async
