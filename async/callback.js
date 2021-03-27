@@ -13,7 +13,7 @@ function printWithDelay(print, timeout) {
 // hoisting: var, function declaration.
 console.log('1') // sync
 setTimeout(() => 
-console.log('2'), 1000); // async
+console.log('2'), 2000); // async
 console.log('3') // sync
 
 printImmediately(() => console.log('hello')) // sync
