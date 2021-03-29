@@ -13,9 +13,19 @@ function printWithDelay(print, timeout) {
 // hoisting: var, function declaration.
 console.log('1') // sync
 setTimeout(() => 
-console.log('2'), 2000); // async
+console.log('2'), 1000); // async
 console.log('3') // sync
 
 printImmediately(() => console.log('hello')) // sync
 
 printWithDelay(() => console.log('async callback'), 2000) // async
+
+// Call back Hell example
+class UserStorage {
+  loginUser(id, password, onSuccess, onError) {
+
+  }
+  getRoles(user, onSuccess, onError) {
+    
+  }
+}
