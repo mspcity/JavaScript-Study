@@ -39,7 +39,7 @@ class UserStorage {
       if (user === 'park') {
         onSuccess({ name: 'park', role: 'admin'});
       } else {
-        onError(new Error('no access'));
+        onError(new Error('no access!'));
       }
     }, 1000)
   }
