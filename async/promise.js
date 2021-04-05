@@ -5,4 +5,16 @@
 // Producer vs Consumer
 
 // 1. Producer
-const promise = new Promise()
+// when new Promise is created, the executor runs automatically. 
+const promise = new Promise((resolve, reject) => {
+  // doing some heavy work (network, read files)
+  console.log('doing something..');
+  setTimeout(() => {
+      resolve('park');
+  }, 2000);
+});
+
+// 2. Consumers: then, catch, finally
+promise.then((value) => {
+  console.log(value);
+})Í
