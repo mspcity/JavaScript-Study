@@ -1,7 +1,13 @@
-let arr = [27, 8, 5, 13]
+// 배열의 모든수 합치기
 
-arr.sort((a,b) => {
-  return a-b
+let arr = [1,2,3,4,5]
+
+// for, for of, forEach
+
+let result = 0;
+arr.forEach((num) => {
+  result += num
 })
 
-console.log(arr)
+
+console.log(result)
