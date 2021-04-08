@@ -4,10 +4,13 @@ let arr = [1,2,3,4,5]
 
 // for, for of, forEach
 
-let result = 0;
-arr.forEach((num) => {
-  result += num
-})
+// let result = 0;
+// arr.forEach((num) => {
+//   result += num
+// })
 
+const result = arr.reduce((prev, cur) => {
+    return prev + cur
+}, 0)
 
 console.log(result)
