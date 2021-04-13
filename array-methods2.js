@@ -16,7 +16,7 @@
 // console.log(result)
 
 
-const arr = [1, 2, 4, 5, 6]
+const arr = [1, 2, 3, 4, 5, 6]
  
  index = arr.indexOf(5) 
  
