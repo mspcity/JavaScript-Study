@@ -24,5 +24,5 @@ promise
   console.log(error)
 })
 .finally(() => {
-  console.log('finally!')
+  console.log('finally')
 });
