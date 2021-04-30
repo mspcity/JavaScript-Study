@@ -9,7 +9,7 @@ function getFlip(str, expected) {
       flipCount++;
       expected = flit(expected);
   }
-  return flipCount
+  return flipCount;
 }
 
 function minFlip(str) {
